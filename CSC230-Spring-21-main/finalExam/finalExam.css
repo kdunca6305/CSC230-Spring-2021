@@ -14,7 +14,27 @@
 
  header {
     background-color: lightgreen;
+    width: 100%;
  }
+
+ body > header {
+	margin: 0;
+	width: 100%;
+ }
+
+ body > nav {
+	width: 20%;
+	float: left;
+	margin: 0 0 0 1.5%;
+}
+
+body > section {
+    width: 75%;
+	float: right;
+}
+body > footer {
+	width: 100%;
+}
 
  img {
      display: block;
@@ -74,12 +94,14 @@ table {
     padding-top: 2px;
     padding-bottom: 2px;
     margin-left: 30px;
+    
 }
 
 nav {
     background-color: lightgreen;
     color: black;
     text-align: center;
+    float: left;
     width: 25%;
     margin: 0px;
     padding: 0px;
@@ -93,7 +115,7 @@ section {
     background-color: lightcoral;
     width: 75%;
     text-align: right;
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
     display: block;
 }
 
@@ -108,11 +130,17 @@ td {
     color: black;
 }
 
+
+#myLinks {
+    text-align: left;
+}
+
 footer {	
     background-color: lightgreen;
     font-family: Arial;
-    text-align: center;			   
+    width: 100%;
+    text-align: center;	
+    float: left;
     padding: 30px 20px 20px 20px;
  }
 
- 
